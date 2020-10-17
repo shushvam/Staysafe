@@ -259,7 +259,7 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
                                     dataSnapshot.getRef().child("leopard").child("level").setValue("0");
                                 }
                             },
-                            10000
+                            300000
                     );
                 }
             }
